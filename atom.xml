@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://shuhsiencho.github.io/"/>
-  <updated>2021-01-23T19:16:55.768Z</updated>
+  <updated>2021-01-23T19:44:08.708Z</updated>
   <id>https://shuhsiencho.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Inference on Selected Subgroups in Clinical Trials</title>
+    <link href="https://shuhsiencho.github.io/posts/issct/"/>
+    <id>https://shuhsiencho.github.io/posts/issct/</id>
+    <published>2021-01-24T00:00:00.000Z</published>
+    <updated>2021-01-23T19:44:08.708Z</updated>
+    
+    <content type="html"><![CDATA[<p>This note is based on the "Inference on Selected Subgroups in Clinical Trials" by</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;This note is based on the &quot;Inference on Selected Subgroups in Clinical Trials&quot; by&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+      <category term="Note" scheme="https://ShuHsienCho.github.io/categories/Note/"/>
+    
+    
+      <category term="Note" scheme="https://ShuHsienCho.github.io/tags/Note/"/>
+    
+  </entry>
   
   <entry>
     <title>Statistical Inference Note</title>
@@ -67,29 +94,6 @@
     
     
       <category term="心得" scheme="https://ShuHsienCho.github.io/tags/%E5%BF%83%E5%BE%97/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Encrypted article test 2</title>
-    <link href="https://shuhsiencho.github.io/posts/7e709353/"/>
-    <id>https://shuhsiencho.github.io/posts/7e709353/</id>
-    <published>2020-11-06T16:14:11.000Z</published>
-    <updated>2021-01-23T19:18:59.855Z</updated>
-    
-    <content type="html"><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Wrong password!" data-whm="Sorry, we cannot verify your information.">  <div class="hbe-input-container">  <input type="password" id="hbePass" placeholder="" />    <label for="hbePass">Please try the password 111111.</label>    <div class="bottom-line"></div>  </div>  <script id="hbeData" type="hbeData" data-hmacdigest="5073554f3abdc46ca0b84dc98c46942249ed27ffe52d920bc84b851b309fa2b3">905fd78c9360bef3c123d875121d3cdd10c86b884fd8155cb0b6bc8923501167db4256a2310b72b17cc7f34b90d03c0bd2ea4300250a3dac4aa5bf0e9df0780bd52a99aaf7d4147c8ab5d242bbb9c2d0f485e6aa27c5727966c4d4ede61b819c</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
-    
-    <summary type="html">
-    
-      It&#39;s an encrypted article.
-    
-    </summary>
-    
-    
-      <category term="private" scheme="https://ShuHsienCho.github.io/categories/private/"/>
-    
-    
-      <category term="Encrypted" scheme="https://ShuHsienCho.github.io/tags/Encrypted/"/>
     
   </entry>
   
