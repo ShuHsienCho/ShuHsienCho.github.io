@@ -12,4 +12,4 @@ date: 2021-01-23 18:00:00
 mathjax: true
 ---
  
-This note is based on the "Inference on Selected Subgroups in Clinical Trials" by 
+This note is based on the **Inference on Selected Subgroups in Clinical Trials (Guo and He, 2020)**
