@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Shu-Hsien Cho</title>
+  
+  <subtitle>Ph.D. Student in Biostatistics, University of Texas MD Anderson UTHealth Graduate School of Biomedical Sciences</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://shuhsiencho.github.io/"/>
+  <updated>2021-01-23T19:16:55.768Z</updated>
+  <id>https://shuhsiencho.github.io/</id>
+  
+  <author>
+    <name>Shu-Hsien Cho</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Statistical Inference Note</title>
+    <link href="https://shuhsiencho.github.io/posts/statinfnote/"/>
+    <id>https://shuhsiencho.github.io/posts/statinfnote/</id>
+    <published>2021-01-05T00:00:00.000Z</published>
+    <updated>2021-01-23T19:16:55.768Z</updated>
+    
+    <content type="html"><![CDATA[<p>This lecture note is based on Rice STAT 532: Foundations of Statistical Inference I and Rice STAT 533: Foundations of Statistical Inference II. All the lecture notes will provide an advanced introduction to the mathematical theory of statistics, including comprehensive measure-theoretic probability, common families of distributions, statistical decision theory, statistics, and estimation.</p><h2 id="chapter-1-measure-space">Chapter 1: Measure Space</h2><p><a href="/asset/statinf/Ch1-Measure-Space.pdf">File</a></p><p>This chapter discusses measures and their definition, construction of functions and induced measures, integration and differentiation, and conditional expectation/distributions.</p><h2 id="chapter-2-probability-measures-on-euclidean-spaces">Chapter 2: Probability Measures on Euclidean Spaces</h2><p><a href="/asset/statinf/Ch2-Probability-Measures-on-Euclidean-Spaces.pdf">File</a></p><p>This chapter discusses the detailed properties of probability models on Euclidean spaces, moment inequalities, generating functions, distribution families, and order statistics.</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;This lecture note is based on Rice STAT 532: Foundations of Statistical Inference I and Rice STAT 533: Foundations of Statistical Inferen
+      
+    
+    </summary>
+    
+    
+      <category term="Course Lecture Note" scheme="https://ShuHsienCho.github.io/categories/Course-Lecture-Note/"/>
+    
+    
+      <category term="Note" scheme="https://ShuHsienCho.github.io/tags/Note/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MD Anderson GSBS第一學期回顧</title>
+    <link href="https://shuhsiencho.github.io/posts/mdacc20fall/"/>
+    <id>https://shuhsiencho.github.io/posts/mdacc20fall/</id>
+    <published>2020-12-13T08:30:00.000Z</published>
+    <updated>2021-01-23T19:16:55.768Z</updated>
+    
+    <content type="html"><![CDATA[<p>在MD Anderson自閉的第一學期即將結束，在參與13-16號之間的ICSA Applied Statistics Symposiums之外，還得在16號考Rice統計推論一的期末考，接下來就是寒假的小休息與reset，在念書之餘想分享一下可能是在這學校最特別的一學期，也給自己一點回顧。</p><h2 id="core-course">Core Course</h2><p>這門課可以說是GSBS最重要的課程，也吃掉我最多時間，每天早上都需要上2.5小時的課外，每週也都有2個作業與1個journal club/debate等等。因為是umbrella program的緣故每一週都有不一樣的主題，我想從一個念統計/Quantitative Science的角度來看這門課。</p><h3 id="優點">優點</h3><p>因為要cover每週的主題，這門課找來MD Anderson / UT Medical School / BCM 等地的老師支援開課，對我來說是很新的上課體驗。而且因為不少老師都想收學生，因此上課也可能更認真，或者會推銷自己。此外每週一主題造成內容不會過分深入，相對來說則是更快的節奏，對於毫無基礎的我雖然仍屬辛苦，但是可以想像肯定比純粹的PhD level生物課更易上手。加上這學期其實也有不少內容是拿COVID來作為舉例甚至是當週的journal club / grant proposal主題，對於主題的投入更有感受（但希望我過了這學期不會真的忘光光就好）。此外這堂課的主軸也對bioinfo/statistical genetics的研究方向更為友好！</p><h4 id="translational-studies">Translational studies</h4><p>這門課其實某個程度上證實了這個學校是相對擅長轉譯研究的，很多時候我們都在看癌症相關的target gene以及mechanism/machinery，或者討論特定的pathway，有時候會要求我們基於以上的資訊設想一些有系統的小鼠實驗等等，這相當符合translational study的精神，也讓我了解到將來可能的合作對象是如何問出科學問題，只是並不會延伸到對於統計學家來說更容易協助的Phase 2以後的study，更多像是從bench的研究試圖延伸到病人的研究。</p><h3 id="缺點">缺點</h3><p>以生物統計的角度來看，這門課的幫助很有限，在前一個月的課程可以視為Genetic Epidemiology的生物背景知識。每週的journal club/指定閱讀文本也都有包含幾種基本的檢定或者存活分析甚至是視覺化，而這也是biostat/bioinfo課堂都有提及的，只是每週主題跟統計的整合效果不佳，這從每週的biostat作業同學的回答可以感受到。</p><p>此外在MDACC，不少的lab需要自己做single cell sequencing，且轉譯醫學本身應該也需要多學科的互相支援，但是這門課並沒有帶到與dry lab合作的必要性，多數在小組活動上的內容也都是以生物科學內容為主，並沒有讓生物背景的學生去嘗試問什麼時候需要量化，於是QS在這堂課中更像是另外一種突兀的存在。</p><p>最後則是非戰之罪--互動，這受制於當前疫情，這門課畢竟每天都要看到一樣的人2.5小時到中午，是一個很好讓同學互相交朋友的機會，甚至延伸到日後的合作，只是線上上課大大阻礙了可能性。</p><h2 id="rotation">Rotation</h2><p>這應該是對於統計學生來我們學校比較幸福的點，畢竟很少有人可以在一年級就開始做東西。相對於一個禮拜要五個半天的core course，這件事對我來說更熟悉。做了一些存活分析的variable selection同時估計的嘗試與實現，並且試圖用在UK biobank上，接下來希望寒假可以完成大部分的工作並且開始寫Technical report，只是想要同時在私底下多做一點東西的計劃並沒有很成功，可能在修課上多花了不少時間，希望下個學期在修課跟做研究上可以兼顧，並且下學期的rotation是有機會可以自己發展一些先前與老師討論過的想法，讓我更加期待！也要感謝Ryan給了蠻多想法跟建議，在這個特殊的情形與全新的環境中讓我仍然還算順利地活過這學期。</p><p>另外，在這裡似乎不用考慮「這真的用得到嗎？」「應用端在意嗎？」，更多時候就是因為有這些資料與現象才會冒出這些問題（或更準確的說，有這些Grant）而能夠更直接感受到該解決的問題。因此我猜想如果是即戰力到MD Anderson來唸書可能會很有收穫，這樣在一開始就可以決定好發展的走向，有研究經驗的幾個同學也是很快速地就把自己的rotation定好，這是對老師或者對學生都很有效率的做法，也可能是他們在入學審資料的時候會看Research statement的緣故，希望日後還能回來驗證這個猜想XD</p><h2 id="其他">其他</h2><p>多虧這裡選課自由，我能跨到Rice去上一些更深入的課程還是不錯（而且還不用多付錢），這樣可以讓訓練更多元又同時有深度，只是還有部分需要改善，特別是WFH的節奏沒有很順利，以及下學期相對更重的課程負擔，還有希望把下兩個rotation做得符合期待，應該會是更大的挑戰。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;在MD Anderson自閉的第一學期即將結束，在參與13-16號之間的ICSA Applied Statistics Symposiums之外，還得在16號考Rice統計推論一的期末考，接下來就是寒假的小休息與reset，在念書之餘想分享一下可能是在這學校最特別的一學期，
+      
+    
+    </summary>
+    
+    
+      <category term="中文" scheme="https://ShuHsienCho.github.io/categories/%E4%B8%AD%E6%96%87/"/>
+    
+      <category term="心得分享" scheme="https://ShuHsienCho.github.io/categories/%E4%B8%AD%E6%96%87/%E5%BF%83%E5%BE%97%E5%88%86%E4%BA%AB/"/>
+    
+    
+      <category term="心得" scheme="https://ShuHsienCho.github.io/tags/%E5%BF%83%E5%BE%97/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Encrypted article test 2</title>
+    <link href="https://shuhsiencho.github.io/posts/7e709353/"/>
+    <id>https://shuhsiencho.github.io/posts/7e709353/</id>
+    <published>2020-11-06T16:14:11.000Z</published>
+    <updated>2021-01-23T19:18:59.855Z</updated>
+    
+    <content type="html"><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Wrong password!" data-whm="Sorry, we cannot verify your information.">  <div class="hbe-input-container">  <input type="password" id="hbePass" placeholder="" />    <label for="hbePass">Please try the password 111111.</label>    <div class="bottom-line"></div>  </div>  <script id="hbeData" type="hbeData" data-hmacdigest="5073554f3abdc46ca0b84dc98c46942249ed27ffe52d920bc84b851b309fa2b3">905fd78c9360bef3c123d875121d3cdd10c86b884fd8155cb0b6bc8923501167db4256a2310b72b17cc7f34b90d03c0bd2ea4300250a3dac4aa5bf0e9df0780bd52a99aaf7d4147c8ab5d242bbb9c2d0f485e6aa27c5727966c4d4ede61b819c</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
+    
+    <summary type="html">
+    
+      It&#39;s an encrypted article.
+    
+    </summary>
+    
+    
+      <category term="private" scheme="https://ShuHsienCho.github.io/categories/private/"/>
+    
+    
+      <category term="Encrypted" scheme="https://ShuHsienCho.github.io/tags/Encrypted/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Encrypted article test</title>
+    <link href="https://shuhsiencho.github.io/posts/7e709353/"/>
+    <id>https://shuhsiencho.github.io/posts/7e709353/</id>
+    <published>2020-11-06T16:14:11.000Z</published>
+    <updated>2021-01-23T19:18:21.885Z</updated>
+    
+    <content type="html"><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Wrong password!" data-whm="Sorry, we cannot verify your information.">  <div class="hbe-input-container">  <input type="password" id="hbePass" placeholder="" />    <label for="hbePass">Please try the password 123456.</label>    <div class="bottom-line"></div>  </div>  <script id="hbeData" type="hbeData" data-hmacdigest="b2934ed8d8393f9a9fc4b51152a96c3a6b7019560b652cc5b15b899874d71fec">b0929fd6bf1e3d692d23808e2d9f7ec461bbd2261c4a3c77cb0211ef6876a91ae820900900a1494a3b16f0ca7e84bc4e6aa9b17c7c0b1b019f603428caf046f5be8bb4efe97ab9c32919c4cedd332993ff52721aaefabd74ff4d9c93fad613395e19a719244d40f7255e64e401c3f6f1d5e326c481e0571adf76805cd4ce1b1c834fa2b528cd08f2e88d0e7f9de08132014a5d540b0983d4c40bddd66834d6d516518e5d150ed53941a28888c164ddf5ac1a3e5f9212838bc594629bd53283d70374594606c756d00f864a3c90c6b7f5f90e14e7f0e6a01ad0eb9b8074bda3a895b488face5f0230051f081b70e8ad566184d44bce3447b2e3d517ee8b6bd4279a53a400f49ba10293aa179eb2eeca7f33999e658357c140eb5bbff6afa197c8c73147e37d38eb22214a9fea7f79161254b8b7cb49214abb8d51fbc249276a4e3b0eaa401b75b04008d96e4a2ce88dfa389799cfc7e5bc8e43f944de4005d05d889d8d8100990ceefc88f5c1d2df3dd370fbf76c942f27a5b40d6aac58be8a3d30e36f80627e721a9d6a5c46d2573bd8670ba8ff67f73509c5c72dba5a21939f358bf84644f2ea978fd7f12f25e4f7b0155674132de5dfa85ed4985b9b0168364611d70731b466787a9515e5696c20261b39fec546203e473cd58d9a2f72c677b8d1c7d175d7cc91dcf4a07767b6912b21fbbc626b2f68ba6379d1a787000576cb7a8b22c7dd80c9b1a2e73f5e3c8bc83bf969adaa1b3b1c586e68b69bb9763eddcf50720a4473d5e8b797e0360724b29674d4876211b549ec961eb193a4f8a09952db854d72c339ac18571e1ee9eb6b18300d853ae15f473ac60dd7d607ecf40bc0b18a5b85b8b68f8e2f62f5bb71ec27919b426d70b6ad249f8bea92af12ad</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
+    
+    <summary type="html">
+    
+      It&#39;s an encrypted article.
+    
+    </summary>
+    
+    
+      <category term="private" scheme="https://ShuHsienCho.github.io/categories/private/"/>
+    
+    
+      <category term="Encrypted" scheme="https://ShuHsienCho.github.io/tags/Encrypted/"/>
+    
+  </entry>
+  
+</feed>
