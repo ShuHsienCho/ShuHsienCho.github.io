@@ -3,7 +3,10 @@ title: Inference on Selected Subgroups in Clinical Trials
 toc: true
 recommend: 1
 keywords: 
-tags: Note
+tags: 
+  - Note
+  - Subgroup Analysis
+  - Clinical Trial
 categories:
   - Note
 abbrlink: issct
