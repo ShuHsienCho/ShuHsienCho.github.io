@@ -17,6 +17,8 @@ mathjax: true
  
 This note is based on the **[X. Guo and X. He (2020), Inference on Selected Subgroups in Clinical Trials, Journal of American Statistical Association](https://www.tandfonline.com/doi/full/10.1080/01621459.2020.1740096)**
 
+<!-- more -->
+
 ## Subgroup Analyses and Selection bias Overview
 
 Subgroup analyses figure out promising treatments to some subgroups. In practice, subgroup analyses consists of two steps: subgroup identification and subgroup confirmation. In the identification step, researchers looks for the best selected subgroup which comes from domain considerations or data-driven. The existing data-driven identification methods are mostly machine-learning based or model based. The confirmation step provides an inference for possibly additional trials on the identified subgroup. Generally, The inference to the selected subgroup may lead to an overly optimistic evaluation, which is called subgroup selection bias. This kind of bias is originated from the selection mechanism of $\max\limits_{i=1,\cdots,k}(\beta_i)$. Some of the existing methods for subgroup confirmation might be conservative, without theoretical justification, or model-dependent. Thus, this paper proposes a (data-adaptive) de-biasing bootstrap estimate and a valid one-sided confidence bound.

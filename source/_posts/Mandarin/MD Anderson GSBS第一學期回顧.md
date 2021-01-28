@@ -15,6 +15,8 @@ mathjax: true
 ---
 在MD Anderson自閉的第一學期即將結束，在參與13-16號之間的ICSA Applied Statistics Symposiums之外，還得在16號考Rice統計推論一的期末考，接下來就是寒假的小休息與reset，在念書之餘想分享一下可能是在這學校最特別的一學期，也給自己一點回顧。
 
+<!-- more -->
+
 ## Core Course
 這門課可以說是GSBS最重要的課程，也吃掉我最多時間，每天早上都需要上2.5小時的課外，每週也都有2個作業與1個journal club/debate等等。因為是umbrella program的緣故每一週都有不一樣的主題，我想從一個念統計/Quantitative Science的角度來看這門課。
 

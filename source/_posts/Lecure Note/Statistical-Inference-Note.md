@@ -14,6 +14,8 @@ mathjax: true
 
 This lecture note is based on Rice STAT 532: Foundations of Statistical Inference I and Rice STAT 533: Foundations of Statistical Inference II. All the lecture notes will provide an advanced introduction to the mathematical theory of statistics, including comprehensive measure-theoretic probability, common families of distributions, statistical decision theory, statistics, and estimation.
 
+<!-- more -->
+
 ## Chapter 1: Measure Space
 
 [File](/asset/statinf/Ch1-Measure-Space.pdf)
