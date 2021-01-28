@@ -3,7 +3,7 @@ title: Survival Analysis Note
 toc: true
 recommend: 1
 keywords: 
-tags: Note
+tags: Lecture Note
 categories:
   - Course Lecture Note
 abbrlink: survivalnote

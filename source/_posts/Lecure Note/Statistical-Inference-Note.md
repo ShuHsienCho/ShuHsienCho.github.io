@@ -3,7 +3,7 @@ title: Statistical Inference Note
 toc: true
 recommend: 1
 keywords: 
-tags: Note
+tags: Lecture Note
 categories:
   - Course Lecture Note
 abbrlink: statinfnote
