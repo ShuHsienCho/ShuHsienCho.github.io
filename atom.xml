@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://shuhsiencho.github.io/"/>
-  <updated>2021-01-23T20:13:26.015Z</updated>
+  <updated>2021-01-29T01:08:09.061Z</updated>
   <id>https://shuhsiencho.github.io/</id>
   
   <author>
@@ -20,18 +20,14 @@
     <title>Inference on Selected Subgroups in Clinical Trials</title>
     <link href="https://shuhsiencho.github.io/posts/issct/"/>
     <id>https://shuhsiencho.github.io/posts/issct/</id>
-    <published>2021-01-24T00:00:00.000Z</published>
-    <updated>2021-01-23T20:13:26.015Z</updated>
+    <published>2021-01-28T00:00:00.000Z</published>
+    <updated>2021-01-29T01:08:09.061Z</updated>
     
-    <content type="html"><![CDATA[<p>This note is based on the <strong>Inference on Selected Subgroups in Clinical Trials (Guo and He, 2020)</strong></p>]]></content>
+    <content type="html"><![CDATA[<p>This note is based on the <strong><a href="https://www.tandfonline.com/doi/full/10.1080/01621459.2020.1740096">X. Guo and X. He (2020), Inference on Selected Subgroups in Clinical Trials, Journal of American Statistical Association</a></strong></p><a id="more"></a><h2 id="subgroup-analyses-and-selection-bias-overview">Subgroup Analyses and Selection bias Overview</h2><p>Subgroup analyses figure out promising treatments to some subgroups. In practice, subgroup analyses consists of two steps: subgroup identification and subgroup confirmation. In the identification step, researchers looks for the best selected subgroup which comes from domain considerations or data-driven. The existing data-driven identification methods are mostly machine-learning based or model based. The confirmation step provides an inference for possibly additional trials on the identified subgroup. Generally, The inference to the selected subgroup may lead to an overly optimistic evaluation, which is called subgroup selection bias. This kind of bias is originated from the selection mechanism of <span class="math inline">\(\max\limits_{i=1,\cdots,k}(\beta_i)\)</span>. Some of the existing methods for subgroup confirmation might be conservative, without theoretical justification, or model-dependent. Thus, this paper proposes a (data-adaptive) de-biasing bootstrap estimate and a valid one-sided confidence bound.</p><h2 id="procedure">Procedure</h2><p>For predifined subgroups, the interested estimators are the  <span class="math inline">\(\beta_s\)</span> (the true effect size of the subgroup with the largest estimated effect) and  <span class="math inline">\(\beta_{\max}\)</span> (the largest true subgroup effect size). The procedure is:</p><ol type="1"><li>Obtain the largest modified bootstrapped subgroup effect <span class="math inline">\(\beta^*_{\max,\text{modified}}=\max\limits_{i=1,\cdots,k}(\beta^*_i+d_i)\)</span> with modification <span class="math inline">\(d_i=(1-n^{r-0.5})(\hat\beta_{\max}-\hat\beta_i)\)</span></li><li>Construct the bootstrap confidence interval <span class="math inline">\(\hat\beta_{\max}\pm c_\alpha/\sqrt{n}\)</span> with <span class="math inline">\(c_{\alpha}=quantile(\sqrt{n}(\max\limits_{i=1,\cdots,k}(\beta^*_{i,b}+d_i)-\hat\beta_{\max}),1-\alpha)\)</span> (asymptotically sharp interval for <span class="math inline">\(\beta_s\)</span>).</li><li>Derive the bias-reduced estimator <span class="math inline">\(\hat\beta_{\max,\text{reduced}}=\hat\beta_{\max}-E^*[\beta^*_{\max,\text{modified}}-\hat\beta_{\max}]\)</span></li><li>For data-adaptive <span class="math inline">\(r\)</span>, tune <span class="math inline">\(r\)</span> with cross validation and bias-reduced estimator.</li></ol><p>While considering the post-hoc subgroup identification, the procedure is similar to the predefined subgroup identification but no data-adaptive selection for <span class="math inline">\(r\)</span>.</p><h2 id="possible-extention">Possible Extention</h2><p>This method is useful for homogeneous subgroups, because the subgroup selection bias in the homogeneous subgroups might be larger than one in the heterogeneous subgroups. When the subgroup effects are heterogeneous, the naive approach of subgroup identification provide an efficient enough result with less empirical bias. However, the tradeoff among the tuning parameter <span class="math inline">\(r\)</span>, heterogeneity, and number of subgroups has not been discussed.</p><p>With the simulation provided in this paper, the bias and coverage get worse when the number of subgroups or <span class="math inline">\(r\)</span> gets large. When <span class="math inline">\(r\)</span> gets large, it means that the effect modification <span class="math inline">\(d\)</span> goes to 0. We could also discover that the empirical bias with small <span class="math inline">\(r\)</span> performs better than large <span class="math inline">\(r\)</span> in homogeneous subgroups setting. However, this situation is reversed in heterogeneous setting. Thus, the relationship between modification, heterogeneity, and number of subgroups might be a potential issue to work on.</p><p>Another possible extension associates with the confounding adjustment, especially for trial data and observational studies. This method allows overlapped subgroup; that is, we cannot think the subgroup as the stratification. With confounding adjustment, the subgroup effect size should be reconsidered.</p>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;p&gt;This note is based on the &lt;strong&gt;Inference on Selected Subgroups in Clinical Trials (Guo and He, 2020)&lt;/strong&gt;&lt;/p&gt;
-
-      
+      &lt;p&gt;This note is based on the &lt;strong&gt;&lt;a href=&quot;https://www.tandfonline.com/doi/full/10.1080/01621459.2020.1740096&quot;&gt;X. Guo and X. He (2020), Inference on Selected Subgroups in Clinical Trials, Journal of American Statistical Association&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
     
     </summary>
     
@@ -41,23 +37,24 @@
     
       <category term="Note" scheme="https://ShuHsienCho.github.io/tags/Note/"/>
     
+      <category term="Subgroup Analysis" scheme="https://ShuHsienCho.github.io/tags/Subgroup-Analysis/"/>
+    
+      <category term="Clinical Trial" scheme="https://ShuHsienCho.github.io/tags/Clinical-Trial/"/>
+    
   </entry>
   
   <entry>
-    <title>Statistical Inference Note</title>
-    <link href="https://shuhsiencho.github.io/posts/statinfnote/"/>
-    <id>https://shuhsiencho.github.io/posts/statinfnote/</id>
-    <published>2021-01-05T00:00:00.000Z</published>
-    <updated>2021-01-23T19:16:55.768Z</updated>
+    <title>Survival Analysis Note</title>
+    <link href="https://shuhsiencho.github.io/posts/survivalnote/"/>
+    <id>https://shuhsiencho.github.io/posts/survivalnote/</id>
+    <published>2021-01-24T01:00:00.000Z</published>
+    <updated>2021-01-29T01:08:09.060Z</updated>
     
-    <content type="html"><![CDATA[<p>This lecture note is based on Rice STAT 532: Foundations of Statistical Inference I and Rice STAT 533: Foundations of Statistical Inference II. All the lecture notes will provide an advanced introduction to the mathematical theory of statistics, including comprehensive measure-theoretic probability, common families of distributions, statistical decision theory, statistics, and estimation.</p><h2 id="chapter-1-measure-space">Chapter 1: Measure Space</h2><p><a href="/asset/statinf/Ch1-Measure-Space.pdf">File</a></p><p>This chapter discusses measures and their definition, construction of functions and induced measures, integration and differentiation, and conditional expectation/distributions.</p><h2 id="chapter-2-probability-measures-on-euclidean-spaces">Chapter 2: Probability Measures on Euclidean Spaces</h2><p><a href="/asset/statinf/Ch2-Probability-Measures-on-Euclidean-Spaces.pdf">File</a></p><p>This chapter discusses the detailed properties of probability models on Euclidean spaces, moment inequalities, generating functions, distribution families, and order statistics.</p>]]></content>
+    <content type="html"><![CDATA[<p>This lecture note is based on UTMDA/GSBS GS01 1023: Survival Analysis. All the lecture notes will provide an introduction to associated theory for the analysis of censored failure time data. Becuase this course mainly discuss the commonly-used methods with heuristic arguments and intuitive explanation of their properties, I will also include my own reading notes on incomplete observations and other types of continuous-time processes such as arise with competing risks data, multivariate failure time data, counting processes approaches, martingale and large-sample properties of estimators and tests, and some possible extensions.</p><a id="more"></a><h2 id="chapter-1-introduction">Chapter 1: Introduction</h2><p><a href="/asset/survival/Ch1-Introduction.pdf">File</a></p>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;p&gt;This lecture note is based on Rice STAT 532: Foundations of Statistical Inference I and Rice STAT 533: Foundations of Statistical Inferen
-      
+      &lt;p&gt;This lecture note is based on UTMDA/GSBS GS01 1023: Survival Analysis. All the lecture notes will provide an introduction to associated theory for the analysis of censored failure time data. Becuase this course mainly discuss the commonly-used methods with heuristic arguments and intuitive explanation of their properties, I will also include my own reading notes on incomplete observations and other types of continuous-time processes such as arise with competing risks data, multivariate failure time data, counting processes approaches, martingale and large-sample properties of estimators and tests, and some possible extensions.&lt;/p&gt;
     
     </summary>
     
@@ -65,7 +62,30 @@
       <category term="Course Lecture Note" scheme="https://ShuHsienCho.github.io/categories/Course-Lecture-Note/"/>
     
     
-      <category term="Note" scheme="https://ShuHsienCho.github.io/tags/Note/"/>
+      <category term="Lecture Note" scheme="https://ShuHsienCho.github.io/tags/Lecture-Note/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Statistical Inference Note</title>
+    <link href="https://shuhsiencho.github.io/posts/statinfnote/"/>
+    <id>https://shuhsiencho.github.io/posts/statinfnote/</id>
+    <published>2021-01-05T00:00:00.000Z</published>
+    <updated>2021-01-29T01:08:09.060Z</updated>
+    
+    <content type="html"><![CDATA[<p>This lecture note is based on Rice STAT 532: Foundations of Statistical Inference I and Rice STAT 533: Foundations of Statistical Inference II. All the lecture notes will provide an advanced introduction to the mathematical theory of statistics, including comprehensive measure-theoretic probability, common families of distributions, statistical decision theory, statistics, and estimation.</p><a id="more"></a><h2 id="chapter-1-measure-space">Chapter 1: Measure Space</h2><p><a href="/asset/statinf/Ch1-Measure-Space.pdf">File</a></p><p>This chapter discusses measures and their definition, construction of functions and induced measures, integration and differentiation, and conditional expectation/distributions.</p><h2 id="chapter-2-probability-measures-on-euclidean-spaces">Chapter 2: Probability Measures on Euclidean Spaces</h2><p><a href="/asset/statinf/Ch2-Probability-Measures-on-Euclidean-Spaces.pdf">File</a></p><p>This chapter discusses the detailed properties of probability models on Euclidean spaces, moment inequalities, generating functions, distribution families, and order statistics.</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;This lecture note is based on Rice STAT 532: Foundations of Statistical Inference I and Rice STAT 533: Foundations of Statistical Inference II. All the lecture notes will provide an advanced introduction to the mathematical theory of statistics, including comprehensive measure-theoretic probability, common families of distributions, statistical decision theory, statistics, and estimation.&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Course Lecture Note" scheme="https://ShuHsienCho.github.io/categories/Course-Lecture-Note/"/>
+    
+    
+      <category term="Lecture Note" scheme="https://ShuHsienCho.github.io/tags/Lecture-Note/"/>
     
   </entry>
   
@@ -74,16 +94,13 @@
     <link href="https://shuhsiencho.github.io/posts/mdacc20fall/"/>
     <id>https://shuhsiencho.github.io/posts/mdacc20fall/</id>
     <published>2020-12-13T08:30:00.000Z</published>
-    <updated>2021-01-23T19:16:55.768Z</updated>
+    <updated>2021-01-29T01:08:09.060Z</updated>
     
-    <content type="html"><![CDATA[<p>在MD Anderson自閉的第一學期即將結束，在參與13-16號之間的ICSA Applied Statistics Symposiums之外，還得在16號考Rice統計推論一的期末考，接下來就是寒假的小休息與reset，在念書之餘想分享一下可能是在這學校最特別的一學期，也給自己一點回顧。</p><h2 id="core-course">Core Course</h2><p>這門課可以說是GSBS最重要的課程，也吃掉我最多時間，每天早上都需要上2.5小時的課外，每週也都有2個作業與1個journal club/debate等等。因為是umbrella program的緣故每一週都有不一樣的主題，我想從一個念統計/Quantitative Science的角度來看這門課。</p><h3 id="優點">優點</h3><p>因為要cover每週的主題，這門課找來MD Anderson / UT Medical School / BCM 等地的老師支援開課，對我來說是很新的上課體驗。而且因為不少老師都想收學生，因此上課也可能更認真，或者會推銷自己。此外每週一主題造成內容不會過分深入，相對來說則是更快的節奏，對於毫無基礎的我雖然仍屬辛苦，但是可以想像肯定比純粹的PhD level生物課更易上手。加上這學期其實也有不少內容是拿COVID來作為舉例甚至是當週的journal club / grant proposal主題，對於主題的投入更有感受（但希望我過了這學期不會真的忘光光就好）。此外這堂課的主軸也對bioinfo/statistical genetics的研究方向更為友好！</p><h4 id="translational-studies">Translational studies</h4><p>這門課其實某個程度上證實了這個學校是相對擅長轉譯研究的，很多時候我們都在看癌症相關的target gene以及mechanism/machinery，或者討論特定的pathway，有時候會要求我們基於以上的資訊設想一些有系統的小鼠實驗等等，這相當符合translational study的精神，也讓我了解到將來可能的合作對象是如何問出科學問題，只是並不會延伸到對於統計學家來說更容易協助的Phase 2以後的study，更多像是從bench的研究試圖延伸到病人的研究。</p><h3 id="缺點">缺點</h3><p>以生物統計的角度來看，這門課的幫助很有限，在前一個月的課程可以視為Genetic Epidemiology的生物背景知識。每週的journal club/指定閱讀文本也都有包含幾種基本的檢定或者存活分析甚至是視覺化，而這也是biostat/bioinfo課堂都有提及的，只是每週主題跟統計的整合效果不佳，這從每週的biostat作業同學的回答可以感受到。</p><p>此外在MDACC，不少的lab需要自己做single cell sequencing，且轉譯醫學本身應該也需要多學科的互相支援，但是這門課並沒有帶到與dry lab合作的必要性，多數在小組活動上的內容也都是以生物科學內容為主，並沒有讓生物背景的學生去嘗試問什麼時候需要量化，於是QS在這堂課中更像是另外一種突兀的存在。</p><p>最後則是非戰之罪--互動，這受制於當前疫情，這門課畢竟每天都要看到一樣的人2.5小時到中午，是一個很好讓同學互相交朋友的機會，甚至延伸到日後的合作，只是線上上課大大阻礙了可能性。</p><h2 id="rotation">Rotation</h2><p>這應該是對於統計學生來我們學校比較幸福的點，畢竟很少有人可以在一年級就開始做東西。相對於一個禮拜要五個半天的core course，這件事對我來說更熟悉。做了一些存活分析的variable selection同時估計的嘗試與實現，並且試圖用在UK biobank上，接下來希望寒假可以完成大部分的工作並且開始寫Technical report，只是想要同時在私底下多做一點東西的計劃並沒有很成功，可能在修課上多花了不少時間，希望下個學期在修課跟做研究上可以兼顧，並且下學期的rotation是有機會可以自己發展一些先前與老師討論過的想法，讓我更加期待！也要感謝Ryan給了蠻多想法跟建議，在這個特殊的情形與全新的環境中讓我仍然還算順利地活過這學期。</p><p>另外，在這裡似乎不用考慮「這真的用得到嗎？」「應用端在意嗎？」，更多時候就是因為有這些資料與現象才會冒出這些問題（或更準確的說，有這些Grant）而能夠更直接感受到該解決的問題。因此我猜想如果是即戰力到MD Anderson來唸書可能會很有收穫，這樣在一開始就可以決定好發展的走向，有研究經驗的幾個同學也是很快速地就把自己的rotation定好，這是對老師或者對學生都很有效率的做法，也可能是他們在入學審資料的時候會看Research statement的緣故，希望日後還能回來驗證這個猜想XD</p><h2 id="其他">其他</h2><p>多虧這裡選課自由，我能跨到Rice去上一些更深入的課程還是不錯（而且還不用多付錢），這樣可以讓訓練更多元又同時有深度，只是還有部分需要改善，特別是WFH的節奏沒有很順利，以及下學期相對更重的課程負擔，還有希望把下兩個rotation做得符合期待，應該會是更大的挑戰。</p>]]></content>
+    <content type="html"><![CDATA[<p>在MD Anderson自閉的第一學期即將結束，在參與13-16號之間的ICSA Applied Statistics Symposiums之外，還得在16號考Rice統計推論一的期末考，接下來就是寒假的小休息與reset，在念書之餘想分享一下可能是在這學校最特別的一學期，也給自己一點回顧。</p><a id="more"></a><h2 id="core-course">Core Course</h2><p>這門課可以說是GSBS最重要的課程，也吃掉我最多時間，每天早上都需要上2.5小時的課外，每週也都有2個作業與1個journal club/debate等等。因為是umbrella program的緣故每一週都有不一樣的主題，我想從一個念統計/Quantitative Science的角度來看這門課。</p><h3 id="優點">優點</h3><p>因為要cover每週的主題，這門課找來MD Anderson / UT Medical School / BCM 等地的老師支援開課，對我來說是很新的上課體驗。而且因為不少老師都想收學生，因此上課也可能更認真，或者會推銷自己。此外每週一主題造成內容不會過分深入，相對來說則是更快的節奏，對於毫無基礎的我雖然仍屬辛苦，但是可以想像肯定比純粹的PhD level生物課更易上手。加上這學期其實也有不少內容是拿COVID來作為舉例甚至是當週的journal club / grant proposal主題，對於主題的投入更有感受（但希望我過了這學期不會真的忘光光就好）。此外這堂課的主軸也對bioinfo/statistical genetics的研究方向更為友好！</p><h4 id="translational-studies">Translational studies</h4><p>這門課其實某個程度上證實了這個學校是相對擅長轉譯研究的，很多時候我們都在看癌症相關的target gene以及mechanism/machinery，或者討論特定的pathway，有時候會要求我們基於以上的資訊設想一些有系統的小鼠實驗等等，這相當符合translational study的精神，也讓我了解到將來可能的合作對象是如何問出科學問題，只是並不會延伸到對於統計學家來說更容易協助的Phase 2以後的study，更多像是從bench的研究試圖延伸到病人的研究。</p><h3 id="缺點">缺點</h3><p>以生物統計的角度來看，這門課的幫助很有限，在前一個月的課程可以視為Genetic Epidemiology的生物背景知識。每週的journal club/指定閱讀文本也都有包含幾種基本的檢定或者存活分析甚至是視覺化，而這也是biostat/bioinfo課堂都有提及的，只是每週主題跟統計的整合效果不佳，這從每週的biostat作業同學的回答可以感受到。</p><p>此外在MDACC，不少的lab需要自己做single cell sequencing，且轉譯醫學本身應該也需要多學科的互相支援，但是這門課並沒有帶到與dry lab合作的必要性，多數在小組活動上的內容也都是以生物科學內容為主，並沒有讓生物背景的學生去嘗試問什麼時候需要量化，於是QS在這堂課中更像是另外一種突兀的存在。</p><p>最後則是非戰之罪--互動，這受制於當前疫情，這門課畢竟每天都要看到一樣的人2.5小時到中午，是一個很好讓同學互相交朋友的機會，甚至延伸到日後的合作，只是線上上課大大阻礙了可能性。</p><h2 id="rotation">Rotation</h2><p>這應該是對於統計學生來我們學校比較幸福的點，畢竟很少有人可以在一年級就開始做東西。相對於一個禮拜要五個半天的core course，這件事對我來說更熟悉。做了一些存活分析的variable selection同時估計的嘗試與實現，並且試圖用在UK biobank上，接下來希望寒假可以完成大部分的工作並且開始寫Technical report，只是想要同時在私底下多做一點東西的計劃並沒有很成功，可能在修課上多花了不少時間，希望下個學期在修課跟做研究上可以兼顧，並且下學期的rotation是有機會可以自己發展一些先前與老師討論過的想法，讓我更加期待！也要感謝Ryan給了蠻多想法跟建議，在這個特殊的情形與全新的環境中讓我仍然還算順利地活過這學期。</p><p>另外，在這裡似乎不用考慮「這真的用得到嗎？」「應用端在意嗎？」，更多時候就是因為有這些資料與現象才會冒出這些問題（或更準確的說，有這些Grant）而能夠更直接感受到該解決的問題。因此我猜想如果是即戰力到MD Anderson來唸書可能會很有收穫，這樣在一開始就可以決定好發展的走向，有研究經驗的幾個同學也是很快速地就把自己的rotation定好，這是對老師或者對學生都很有效率的做法，也可能是他們在入學審資料的時候會看Research statement的緣故，希望日後還能回來驗證這個猜想XD</p><h2 id="其他">其他</h2><p>多虧這裡選課自由，我能跨到Rice去上一些更深入的課程還是不錯（而且還不用多付錢），這樣可以讓訓練更多元又同時有深度，只是還有部分需要改善，特別是WFH的節奏沒有很順利，以及下學期相對更重的課程負擔，還有希望把下兩個rotation做得符合期待，應該會是更大的挑戰。</p>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;p&gt;在MD Anderson自閉的第一學期即將結束，在參與13-16號之間的ICSA Applied Statistics Symposiums之外，還得在16號考Rice統計推論一的期末考，接下來就是寒假的小休息與reset，在念書之餘想分享一下可能是在這學校最特別的一學期，
-      
+      &lt;p&gt;在MD Anderson自閉的第一學期即將結束，在參與13-16號之間的ICSA Applied Statistics Symposiums之外，還得在16號考Rice統計推論一的期末考，接下來就是寒假的小休息與reset，在念書之餘想分享一下可能是在這學校最特別的一學期，也給自己一點回顧。&lt;/p&gt;
     
     </summary>
     
