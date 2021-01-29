@@ -18,4 +18,4 @@ This lecture note is based on UTMDA/GSBS GS01 1023: Survival Analysis. All the l
 
 ## Chapter 1: Introduction
 
-[File](/asset/survival/Ch1-Introduction.pdf)
+[File](Ch1-Introduction.pdf)

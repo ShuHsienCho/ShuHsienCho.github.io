@@ -20,6 +20,6 @@ My research interest is survival analysis and clinical trial. In addition, I am 
 
 Outside academics, I love baseball, weight training, and photography. Also, I enjoy cooking, watching sports game, reading, playing contract bridge and Pokemon VGC, and indie music. In addition to being an outstanding researcher, I hope to keep asking questions and fulfill my curiosity to this world.
 
-[CV](/asset/cv/cv.pdf)
+[CV](/about/cv.pdf)
 
 ![](blog.jpg)
