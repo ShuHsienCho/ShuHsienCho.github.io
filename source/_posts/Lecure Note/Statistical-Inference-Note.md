@@ -27,3 +27,4 @@ This chapter discusses measures and their definition, construction of functions 
 [File](/asset/statinf/Ch2-Probability-Measures-on-Euclidean-Spaces.pdf)
 
 This chapter discusses the detailed properties of probability models on Euclidean spaces, moment inequalities, generating functions, distribution families, and order statistics.
+

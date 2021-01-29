@@ -100,6 +100,9 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: amazing
 
+search:
+    insight: true
+
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
