@@ -9,7 +9,7 @@
     "server": "hexo server"
   },
   "hexo": {
-    "version": "4.2.0"
+    "version": "4.2.1"
   },
   "dependencies": {
     "acorn": ">=7.1.1",
@@ -17,10 +17,12 @@
     "bulma-stylus": "0.8.0",
     "deepmerge": "^4.2.2",
     "gitalk": "^1.7.0",
-    "hexo": "^4.2.0",
+    "hexo": "^4.2.1",
     "hexo-abbrlink": "^2.0.5",
     "hexo-asset-file": "^1.0.3",
+    "hexo-asset-image": "git+https://github.com/7ym0n/hexo-asset-image.git",
     "hexo-blog-encrypt": "^3.0.3",
+    "hexo-component-inferno": "^0.10.5",
     "hexo-deployer-git": "^2.1.0",
     "hexo-generator-archive": "^1.0.0",
     "hexo-generator-category": "^1.0.0",
@@ -36,7 +38,7 @@
     "hexo-renderer-pandoc": "^0.3.0",
     "hexo-renderer-stylus": "^1.1.0",
     "hexo-server": "^1.0.0",
-    "hexo-util": "^1.8.0",
+    "hexo-util": "^1.9.1",
     "inferno": "^7.3.3",
     "inferno-create-element": "^7.3.3",
     "install": "^0.13.0",
