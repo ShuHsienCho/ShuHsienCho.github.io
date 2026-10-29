@@ -92,6 +92,7 @@ widgets:
         location: Houston, TX
         avatar_rounded: false
         avatar_rotated: false
+        has_hitokoto: false
         gravatar: 
         follow_link: https://twitter.com/ChoHsien
         social_links:
@@ -132,7 +133,7 @@ comment_head_has_ad: true
 index_zero_position_ad: true
 index_ad_positions: 2,5,9
 plugins:
-    animejs: true
+    animejs: false
     back_to_top: true
     baidu_analytics:
         tracking_id: 
@@ -150,12 +151,12 @@ providers:
     cdn: jsdelivr
     fontcdn: google
     iconcdn: fontawesome
-    my_cdn_pre: https://cdn.jsdelivr.net/gh/removeif/removeif.github.io@v2.2.1
-footer_copyright_dsec: © 版权说明：[本网站所有内容均收集于互联网或自己创作,<br />&nbsp;&nbsp;&nbsp;&nbsp;方便于网友与自己学习交流，如有侵权，请<a href="/message" target="_blank">留言</a>，立即处理]<br />
+    my_cdn_pre: ''
+footer_copyright_dsec: ''
 website_start_time: 2018/11/11 00:00:00
-footer_registered_no: 川ICP备88888888号-8（测试）
-side_music_netease_id: 2364053447
+footer_registered_no: ''
+side_music_netease_id: ''
 busuanzi_only_count: false
-has_live_2D_switch: true
+has_live_2D_switch: false
 use_pjax: true
 live2Dswitch: 'off'
