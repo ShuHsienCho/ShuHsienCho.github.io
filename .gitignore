@@ -5,3 +5,5 @@ db.json
 node_modules/
 public/
 .deploy*/
+# backups and example written by the theme's automatic config upgrade
+_config.amazing.yml.*

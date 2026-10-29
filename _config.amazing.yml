@@ -1,0 +1,161 @@
+version: 5.1.0
+variant: default
+logo:
+    text: Shu-Hsien Cho
+head:
+    favicon: /img/favicon.svg
+    canonical_url: 
+    open_graph:
+        title: Shu-Hsien Cho
+        type: blog
+        url: https://ShuHsienCho.github.io/
+        site_name: Shu-Hsien Cho
+        author: Shu-Hsien Cho
+        description: 
+        twitter_card: 
+        twitter_id: 
+        twitter_site: 
+        google_plus: 
+        fb_admins: 
+        fb_app_id: 
+    structured_data:
+        title: Shu-Hsien Cho
+        description: Ph.D. Candidate in Biostatistics, University of Texas MD Anderson UTHealth Graduate School of Biomedical Sciences
+        url: https://ShuHsienCho.github.io/
+        author: Shu-Hsien Cho
+    meta:
+        - ''
+    rss: /atom.xml
+navbar:
+    menu:
+        Home: /
+        Research: /research
+        Publications: /publications
+        Blog: /blog
+        About: /about
+        Message: /message
+    links:
+        Download on GitHub:
+            icon: fab fa-github
+            url: https://github.com/ShuHsienCho
+footer:
+    links:
+        Creative Commons:
+            icon: fab fa-creative-commons
+            url: https://creativecommons.org/
+        Attribution 4.0 International:
+            icon: fab fa-creative-commons-by
+            url: https://creativecommons.org/licenses/by/4.0/
+        Download on GitHub:
+            icon: fab fa-github
+            url: https://github.com/ShuHsienCho
+article:
+    highlight:
+        theme: atom-one-dark
+        clipboard: true
+        fold: unfolded
+    thumbnail: true
+    readtime: true
+search:
+    type: google_cse
+    cx: be649270f154c2d52
+comment:
+    type: gitalk
+    owner: ShuHsienCho
+    repo: blog_comment
+    client_id: 2aced629bd05b2f72525
+    client_secret: 35bf54171534576960bb92b7714ef4993fd0bc85
+    admin:
+        - ShuHsienCho
+    create_issue_manually: true
+    distraction_free_mode: false
+    has_hot_recommend: false
+    has_latest_comment: false
+donates: []
+share:
+    type: addtoany
+    install_url: ''
+sidebar:
+    left:
+        sticky: true
+    right:
+        sticky: false
+widgets:
+    -
+        position: left
+        type: toc
+    -
+        position: left
+        type: profile
+        author: Shu-Hsien Cho
+        author_title: Ph.D. Candidate in Biostatistics, University of Texas MD Anderson UTHealth Graduate School of Biomedical Sciences
+        location: Houston, TX
+        avatar_rounded: false
+        avatar_rotated: false
+        gravatar: 
+        follow_link: https://twitter.com/ChoHsien
+        social_links:
+            Github:
+                icon: fab fa-github
+                url: https://github.com/ShuHsienCho
+            Email:
+                icon: fa fa-envelope
+                url: mailto:s.h.cho.sean@gmail.com
+            RSS:
+                icon: fas fa-rss
+                url: /atom.xml
+        hasHitokoto: false
+    -
+        position: right
+        type: latest_comment
+    -
+        position: right
+        type: recent_posts
+    -
+        position: right
+        type: categories
+    -
+        position: right
+        type: archives
+    -
+        position: right
+        type: tags
+    -
+        position: right
+        type: subscribe_email
+        description: Enter e-mail address to subscribe this blog!
+        feedburner_id: Shu-hsienCho
+adsense_client_id: 
+adsense_slot_id: '5134765588'
+article_head_has_ad: true
+comment_head_has_ad: true
+index_zero_position_ad: true
+index_ad_positions: 2,5,9
+plugins:
+    animejs: true
+    back_to_top: true
+    baidu_analytics:
+        tracking_id: 
+    busuanzi: true
+    gallery: true
+    google_analytics:
+        tracking_id: 
+    hotjar:
+        site_id: 
+    katex: false
+    mathjax: true
+    outdated_browser: false
+    progressbar: true
+providers:
+    cdn: jsdelivr
+    fontcdn: google
+    iconcdn: fontawesome
+    my_cdn_pre: https://cdn.jsdelivr.net/gh/removeif/removeif.github.io@v2.2.1
+footer_copyright_dsec: © 版权说明：[本网站所有内容均收集于互联网或自己创作,<br />&nbsp;&nbsp;&nbsp;&nbsp;方便于网友与自己学习交流，如有侵权，请<a href="/message" target="_blank">留言</a>，立即处理]<br />
+website_start_time: 2018/11/11 00:00:00
+footer_registered_no: 川ICP备88888888号-8（测试）
+side_music_netease_id: 2364053447
+busuanzi_only_count: false
+has_live_2D_switch: true
+use_pjax: true
+live2Dswitch: 'off'

@@ -4,7 +4,7 @@
 
 # Site
 title: Shu-Hsien Cho
-subtitle: Ph.D. Student in Biostatistics, University of Texas MD Anderson UTHealth Graduate School of Biomedical Sciences
+subtitle: Ph.D. Candidate in Biostatistics, University of Texas MD Anderson UTHealth Graduate School of Biomedical Sciences
 description: ''
 keywords: 
 author: Shu-Hsien Cho
@@ -62,7 +62,7 @@ highlight:
 # per_page: Posts displayed per page. (0 = disable pagination)
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
-  path: ''
+  path: 'blog'
   per_page: 8
   order_by: -date
 
@@ -81,8 +81,8 @@ meta_generator: true
 ## http://momentjs.com/docs/#/displaying/format/
 date_format: YYYY-MM-DD
 time_format: HH:mm:ss
-## Use post's date for updated date unless set in front-matter
-use_date_for_updated: false
+## Updated date when not set in front-matter (Hexo 5+): 'mtime', 'date' or 'empty'
+updated_option: 'mtime'
 
 # Pagination
 ## Set per_page to 0 to disable pagination
