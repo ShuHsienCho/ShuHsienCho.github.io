@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-labelledby="t d">
+<title id="t">Causal mediation for semi-competing risks</title><desc id="d">Exposure affects death directly and through a non-terminal event; death can occur first and prevent the non-terminal event from being observed.</desc>
+<style>
+text { font-family: "Source Sans 3", "Source Sans Pro", "Helvetica Neue", Arial, sans-serif; fill: #23324A; }
+.lab { font-size: 16px; }
+.sm { font-size: 14px; fill: #5B6578; }
+</style>
+<defs>
+<marker id="a-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1F6F78"/></marker>
+<marker id="a-ochre" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#C9922E"/></marker>
+</defs>
+<rect x="1" y="1" width="798" height="448" rx="16" fill="#F7F8FA" stroke="#D9DEE5" stroke-width="1.5"/>
+<line x1="190" y1="277" x2="318" y2="145" stroke="#F7F8FA" stroke-width="9"/>
+<line x1="190" y1="277" x2="318" y2="145" stroke="#1F6F78" stroke-width="3" marker-end="url(#a-teal)"/>
+<line x1="482" y1="145" x2="615" y2="277" stroke="#F7F8FA" stroke-width="9"/>
+<line x1="482" y1="145" x2="615" y2="277" stroke="#1F6F78" stroke-width="3" marker-end="url(#a-teal)"/>
+<line x1="205" y1="300" x2="606" y2="300" stroke="#F7F8FA" stroke-width="9"/>
+<line x1="205" y1="300" x2="606" y2="300" stroke="#C9922E" stroke-width="3" marker-end="url(#a-ochre)"/>
+<rect x="55" y="277" width="150" height="46" rx="23" fill="#FFFFFF" stroke="#23324A" stroke-width="1.5"/>
+<text class="lab" x="130" y="306" text-anchor="middle">Exposure</text>
+<rect x="300" y="99" width="200" height="46" rx="23" fill="#FFFFFF" stroke="#23324A" stroke-width="1.5"/>
+<text class="lab" x="400" y="128" text-anchor="middle">Non-terminal event</text>
+<rect x="605" y="277" width="130" height="46" rx="23" fill="#FFFFFF" stroke="#23324A" stroke-width="1.5"/>
+<text class="lab" x="670" y="306" text-anchor="middle">Death</text>
+<text class="sm" x="400" y="358" text-anchor="middle">Death can occur first and prevent the non-terminal event from being observed.</text>
+<line x1="110" y1="400" x2="146" y2="400" stroke="#1F6F78" stroke-width="3"/>
+<text class="sm" x="156" y="405">Through the non-terminal event</text>
+<line x1="470" y1="400" x2="506" y2="400" stroke="#C9922E" stroke-width="3"/>
+<text class="sm" x="516" y="405">Direct pathway</text>
+</svg>

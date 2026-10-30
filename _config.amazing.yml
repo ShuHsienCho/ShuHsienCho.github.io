@@ -3,10 +3,11 @@ variant: default
 logo:
     text: Shu-Hsien Cho
 head:
-    favicon: /img/favicon.svg
+    favicon: /img/avatar.png
     canonical_url: 
     open_graph:
         title: Shu-Hsien Cho
+        image: /img/avatar.png
         type: blog
         url: https://ShuHsienCho.github.io/
         site_name: Shu-Hsien Cho
@@ -20,6 +21,7 @@ head:
         fb_app_id: 
     structured_data:
         title: Shu-Hsien Cho
+        image: /img/avatar.png
         description: Ph.D. Candidate in Biostatistics, University of Texas MD Anderson UTHealth Graduate School of Biomedical Sciences
         url: https://ShuHsienCho.github.io/
         author: Shu-Hsien Cho
@@ -31,6 +33,9 @@ navbar:
         Home: /
         Research: /research
         Publications: /publications
+        CV: /about/cv.pdf
+        Software: /software
+        Teaching: /teaching
         Blog: /blog
         About: /about
         Message: /message
@@ -99,6 +104,12 @@ widgets:
             Github:
                 icon: fab fa-github
                 url: https://github.com/ShuHsienCho
+            Google Scholar:
+                icon: fas fa-graduation-cap
+                url: https://scholar.google.com/citations?user=RMTBzxcAAAAJ
+            LinkedIn:
+                icon: fab fa-linkedin
+                url: https://www.linkedin.com/in/s-h-sean-cho
             Email:
                 icon: fa fa-envelope
                 url: mailto:s.h.cho.sean@gmail.com

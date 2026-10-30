@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-labelledby="t d">
+<title id="t">Annotation-informed rare-variant association test</title><desc id="d">Rare variants in a gene are colored by a continuous annotation score, grouped adaptively into strata, and an effect is estimated for each stratum. Schematic illustration.</desc>
+<style>
+text { font-family: "Source Sans 3", "Source Sans Pro", "Helvetica Neue", Arial, sans-serif; fill: #23324A; }
+.hd { font-size: 18px; font-weight: 600; }
+.lab { font-size: 16px; }
+.sm { font-size: 14px; fill: #5B6578; }
+</style>
+<defs>
+<linearGradient id="score" x1="0" x2="1"><stop offset="0" stop-color="#DCEBEE"/><stop offset="1" stop-color="#1F6F78"/></linearGradient>
+<marker id="a-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#23324A"/></marker>
+</defs>
+<rect x="1" y="1" width="798" height="448" rx="16" fill="#F7F8FA" stroke="#D9DEE5" stroke-width="1.5"/>
+<g transform="translate(0,22)">
+<text class="hd" x="50" y="62">One gene, many rare variants</text>
+<line x1="60" y1="230" x2="350" y2="230" stroke="#23324A" stroke-width="2"/>
+<rect x="75" y="219" width="48" height="22" rx="4" fill="#23324A"/>
+<rect x="150" y="219" width="62" height="22" rx="4" fill="#23324A"/>
+<rect x="238" y="219" width="44" height="22" rx="4" fill="#23324A"/>
+<rect x="300" y="219" width="38" height="22" rx="4" fill="#23324A"/>
+<line x1="84" y1="219" x2="84" y2="157" stroke="#8A94A6" stroke-width="1.5"/>
+<circle cx="84" cy="150" r="7" fill="#8CC0C8" stroke="#8A94A6" stroke-width="1"/>
+<line x1="99" y1="219" x2="99" y2="179" stroke="#8A94A6" stroke-width="1.5"/>
+<circle cx="99" cy="172" r="7" fill="#3D8B95" stroke="#8A94A6" stroke-width="1"/>
+<line x1="114" y1="219" x2="114" y2="147" stroke="#8A94A6" stroke-width="1.5"/>
+<circle cx="114" cy="140" r="7" fill="#B6D7DC" stroke="#8A94A6" stroke-width="1"/>
+<line x1="160" y1="219" x2="160" y2="167" stroke="#8A94A6" stroke-width="1.5"/>
+<circle cx="160" cy="160" r="7" fill="#1F6F78" stroke="#8A94A6" stroke-width="1"/>
+<line x1="176" y1="219" x2="176" y2="135" stroke="#8A94A6" stroke-width="1.5"/>
+<circle cx="176" cy="128" r="7" fill="#62A6B0" stroke="#8A94A6" stroke-width="1"/>
+<line x1="192" y1="219" x2="192" y2="177" stroke="#8A94A6" stroke-width="1.5"/>
+<circle cx="192" cy="170" r="7" fill="#DCEBEE" stroke="#8A94A6" stroke-width="1"/>
+<line x1="205" y1="219" x2="205" y2="152" stroke="#8A94A6" stroke-width="1.5"/>
+<circle cx="205" cy="145" r="7" fill="#3D8B95" stroke="#8A94A6" stroke-width="1"/>
+<line x1="246" y1="219" x2="246" y2="172" stroke="#8A94A6" stroke-width="1.5"/>
+<circle cx="246" cy="165" r="7" fill="#B6D7DC" stroke="#8A94A6" stroke-width="1"/>
+<line x1="262" y1="219" x2="262" y2="139" stroke="#8A94A6" stroke-width="1.5"/>
+<circle cx="262" cy="132" r="7" fill="#1F6F78" stroke="#8A94A6" stroke-width="1"/>
+<line x1="276" y1="219" x2="276" y2="182" stroke="#8A94A6" stroke-width="1.5"/>
+<circle cx="276" cy="175" r="7" fill="#8CC0C8" stroke="#8A94A6" stroke-width="1"/>
+<line x1="308" y1="219" x2="308" y2="157" stroke="#8A94A6" stroke-width="1.5"/>
+<circle cx="308" cy="150" r="7" fill="#62A6B0" stroke="#8A94A6" stroke-width="1"/>
+<line x1="326" y1="219" x2="326" y2="175" stroke="#8A94A6" stroke-width="1.5"/>
+<circle cx="326" cy="168" r="7" fill="#DCEBEE" stroke="#8A94A6" stroke-width="1"/>
+<text class="sm" x="205" y="283" text-anchor="middle">Continuous annotation score</text>
+<rect x="70" y="292" width="270" height="10" rx="5" fill="url(#score)" stroke="#C5CCD6" stroke-width="0.8"/>
+<text class="sm" x="70" y="324">Low</text><text class="sm" x="340" y="324" text-anchor="end">High</text>
+<line x1="372" y1="230" x2="446" y2="230" stroke="#23324A" stroke-width="2" marker-end="url(#a-ink)"/>
+<text class="sm" x="409" y="198" text-anchor="middle">Adaptive</text><text class="sm" x="409" y="215" text-anchor="middle">grouping</text>
+<text class="hd" x="470" y="62">An effect for each stratum</text>
+<text class="sm" x="505" y="108" text-anchor="middle">Variant sets</text><text class="sm" x="690" y="108" text-anchor="middle">Estimated effect</text>
+<line x1="640" y1="122" x2="640" y2="318" stroke="#8A94A6" stroke-width="1.5" stroke-dasharray="4 4"/>
+<text class="sm" x="640" y="340" text-anchor="middle">No effect</text>
+<circle cx="487" cy="150" r="7" fill="#1F6F78" stroke="#8A94A6" stroke-width="1"/>
+<circle cx="505" cy="150" r="7" fill="#3D8B95" stroke="#8A94A6" stroke-width="1"/>
+<circle cx="523" cy="150" r="7" fill="#1F6F78" stroke="#8A94A6" stroke-width="1"/>
+<line x1="700" y1="150" x2="760" y2="150" stroke="#23324A" stroke-width="2.5"/>
+<circle cx="730" cy="150" r="6.5" fill="#1F6F78" stroke="#23324A" stroke-width="1.5"/>
+<circle cx="487" cy="220" r="7" fill="#62A6B0" stroke="#8A94A6" stroke-width="1"/>
+<circle cx="505" cy="220" r="7" fill="#8CC0C8" stroke="#8A94A6" stroke-width="1"/>
+<circle cx="523" cy="220" r="7" fill="#62A6B0" stroke="#8A94A6" stroke-width="1"/>
+<line x1="655" y1="220" x2="715" y2="220" stroke="#23324A" stroke-width="2.5"/>
+<circle cx="685" cy="220" r="6.5" fill="#62A6B0" stroke="#23324A" stroke-width="1.5"/>
+<circle cx="487" cy="290" r="7" fill="#DCEBEE" stroke="#8A94A6" stroke-width="1"/>
+<circle cx="505" cy="290" r="7" fill="#B6D7DC" stroke="#8A94A6" stroke-width="1"/>
+<circle cx="523" cy="290" r="7" fill="#DCEBEE" stroke="#8A94A6" stroke-width="1"/>
+<line x1="610" y1="290" x2="668" y2="290" stroke="#23324A" stroke-width="2.5"/>
+<circle cx="639" cy="290" r="6.5" fill="#B6D7DC" stroke="#23324A" stroke-width="1.5"/>
+</g>
+<text class="sm" x="770" y="428" text-anchor="end">Schematic illustration</text>
+</svg>

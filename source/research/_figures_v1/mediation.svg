@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-labelledby="t d">
+<title id="t">Path-specific effects through causally ordered mediators</title><desc id="d">Exposure affects survival time directly, through mediator 2 only, and through mediator 1, where mediator 1 also affects mediator 2.</desc>
+<style>
+text { font-family: "Source Sans 3", "Source Sans Pro", "Helvetica Neue", Arial, sans-serif; fill: #23324A; }
+.lab { font-size: 16px; }
+.sm { font-size: 14px; fill: #5B6578; }
+</style>
+<defs>
+<marker id="a-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#8A94A6"/></marker>
+<marker id="a-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1F6F78"/></marker>
+<marker id="a-ochre" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#C9922E"/></marker>
+<marker id="a-plum" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#7A4E8C"/></marker>
+</defs>
+<rect x="1" y="1" width="798" height="448" rx="16" fill="#F7F8FA" stroke="#D9DEE5" stroke-width="1.5"/>
+<line x1="395" y1="140" x2="443" y2="140" stroke="#8A94A6" stroke-width="2" marker-end="url(#a-gray)"/>
+<line x1="352" y1="163" x2="640" y2="277" stroke="#8A94A6" stroke-width="2" marker-end="url(#a-gray)"/>
+<line x1="548" y1="163" x2="668" y2="277" stroke="#8A94A6" stroke-width="2" marker-end="url(#a-gray)"/>
+<line x1="205" y1="300" x2="606" y2="300" stroke="#F7F8FA" stroke-width="9"/>
+<line x1="205" y1="300" x2="606" y2="300" stroke="#C9922E" stroke-width="3" marker-end="url(#a-ochre)"/>
+<line x1="170" y1="277" x2="282" y2="165" stroke="#F7F8FA" stroke-width="9"/>
+<line x1="170" y1="277" x2="282" y2="165" stroke="#7A4E8C" stroke-width="3" marker-end="url(#a-plum)"/>
+<line x1="200" y1="281" x2="470" y2="165" stroke="#F7F8FA" stroke-width="9"/>
+<line x1="200" y1="281" x2="470" y2="165" stroke="#1F6F78" stroke-width="3" marker-end="url(#a-teal)"/>
+<rect x="55" y="277" width="150" height="46" rx="23" fill="#FFFFFF" stroke="#23324A" stroke-width="1.5"/>
+<text class="lab" x="130" y="306" text-anchor="middle">Exposure</text>
+<rect x="245" y="117" width="150" height="46" rx="23" fill="#FFFFFF" stroke="#23324A" stroke-width="1.5"/>
+<text class="lab" x="320" y="146" text-anchor="middle">Mediator 1</text>
+<rect x="445" y="117" width="150" height="46" rx="23" fill="#FFFFFF" stroke="#23324A" stroke-width="1.5"/>
+<text class="lab" x="520" y="146" text-anchor="middle">Mediator 2</text>
+<rect x="610" y="277" width="160" height="46" rx="23" fill="#FFFFFF" stroke="#23324A" stroke-width="1.5"/>
+<text class="lab" x="690" y="306" text-anchor="middle">Survival time</text>
+<line x1="60" y1="400" x2="96" y2="400" stroke="#C9922E" stroke-width="3"/>
+<text class="sm" x="106" y="405">Direct effect</text>
+<line x1="250" y1="400" x2="286" y2="400" stroke="#1F6F78" stroke-width="3"/>
+<text class="sm" x="296" y="405">Through mediator 2 only</text>
+<line x1="520" y1="400" x2="556" y2="400" stroke="#7A4E8C" stroke-width="3"/>
+<text class="sm" x="566" y="405">Through mediator 1</text>
+</svg>

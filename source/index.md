@@ -6,7 +6,7 @@ comments: false
 
 I am a Ph.D. candidate in [Biostatistics](https://gsbs.uth.edu/quantitative-sciences/) at the [University of Texas MD Anderson Cancer Center UTHealth Graduate School of Biomedical Sciences](https://gsbs.uth.edu/), advised by [Dr. Chad D. Huff](https://faculty.mdanderson.org/profiles/chad_huff.html). I expect to graduate in May 2027.
 
-I develop statistical methods that turn large-scale sequencing data into interpretable genetic evidence. My dissertation focuses on rare-variant association testing in biobanks: using continuous functional annotations to form variant sets adaptively and to estimate effects by annotation stratum (VACANT), accounting for genetic relatedness and population structure (VACANT-M), and recalibrating coding-variant annotation scores across variant types for clinical classification (SHARC). I also work on causal inference for time-to-event outcomes, including mediation analysis under the Cox model and semi-competing risks. See [Research](/research/) and [Publications](/publications/), or my [CV](/about/cv.pdf).
+I develop statistical methods that turn large-scale sequencing data into interpretable genetic evidence. My dissertation focuses on rare-variant association testing in biobanks: using continuous functional annotations to form variant sets adaptively and to estimate effects by annotation stratum (VACANT), accounting for genetic relatedness and population structure (VACANT-M), and calibrating continuous coding-variant scores across variant types (SHARC). I also develop causal inference methods for time-to-event outcomes, including mediation analysis under the Cox model. See [Research](/research/) and [Publications](/publications/), or my [CV](/about/cv.pdf).
 
 ## News
 
