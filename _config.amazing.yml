@@ -148,7 +148,7 @@ plugins:
     back_to_top: true
     baidu_analytics:
         tracking_id: 
-    busuanzi: true
+    busuanzi: false
     gallery: true
     google_analytics:
         tracking_id: 
@@ -164,7 +164,7 @@ providers:
     iconcdn: fontawesome
     my_cdn_pre: ''
 footer_copyright_dsec: ''
-website_start_time: 2018/11/11 00:00:00
+website_start_time: 2021/01/23 00:00:00
 footer_registered_no: ''
 side_music_netease_id: ''
 busuanzi_only_count: false

@@ -8,6 +8,8 @@ I am a Ph.D. candidate in [Biostatistics](https://gsbs.uth.edu/quantitative-scie
 
 I develop statistical methods that turn large-scale sequencing data into interpretable genetic evidence. My dissertation focuses on rare-variant association testing in biobanks: using continuous functional annotations to form variant sets adaptively and to estimate effects by annotation stratum (VACANT), accounting for genetic relatedness and population structure (VACANT-M), and calibrating continuous coding-variant scores across variant types (SHARC). I also develop causal inference methods for time-to-event outcomes, including mediation analysis under the Cox model. See [Research](/research/) and [Publications](/publications/), or my [CV](/about/cv.pdf).
 
+**Research interests:** statistical genetics · rare-variant association tests · variant interpretation · causal mediation analysis · survival analysis
+
 ## News
 
 - **Oct 2026**: Poster at the ASHG 2026 Annual Meeting, Montréal. *SHARC: improved LoF SNV and Indel severity prediction and cross-type recalibration of coding variant annotation scores for clinical classification.*
